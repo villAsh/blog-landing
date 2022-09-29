@@ -66,7 +66,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-tailwind":"npm run build tailwindcss "
+    "build-tailwind":"build tailwindcss npx tailwindcss -i ./src/style.css -o ./style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -77,4 +77,6 @@
   "bugs": {
     "url": "https://github.com/villAsh/blog-landing.io/issues"
   },
-  "homepage": "https://github.com/vill
+  "homepage": "https://github.com/villAsh/blog-landing.io#readme",
+  "description": ""
+}
