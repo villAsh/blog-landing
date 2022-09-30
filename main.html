@@ -20,14 +20,25 @@
                         <div class="flex items-center">
                             <ul class="flex flex-col sm:flex-row sm:space-x-5 ">
                                 <li>
-                                    <a href="#" class="text-white hover:underline underline-offset-8 decoration-1">Product 
+                                    <a href="#" class="text-white">Product <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block" id="dropbtn">    
+                                        <ul class="p-4 rounded-lg bg-white text-greyish_blue space-y-2 hidden" id="dropdown">
+                                            <li>Overview</li>
+                                            <li>Pricing</li>
+                                            <li>Marketplace</li>
+                                            <li>Features</li>
+                                            <li>Integration</li>
+                                        </ul>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-white hover:underline underline-offset-8 decoration-1">Company</a>
+                                    <a href="#" class="text-white">Company  <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block">    
+
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-white hover:underline underline-offset-8 decoration-1">Connect</a>
+                                    <a href="#" class="text-white">Connect  <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block">    
+
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -146,5 +157,11 @@
             </div>
         </div>
     </footer>
+    <script>
+        dropd = document.querySelector('#dropdown')
+        btn = document.querySelector('#dropbtn').addEventListener('click', () => {
+            dropd.classList.toggle();
+        });
+    </script>
 </body>
 </html>
