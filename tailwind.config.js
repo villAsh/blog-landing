@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: [],
+  content: ["./main.html"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
@@ -39,6 +40,12 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      light_red: '	#ff525d',
+      very_light_red: '	#ff7a85',
+      very_dark_blue : '	#1f3f5b',
+      greyish_blue : '#c8c8cb',
+      dark_greyish_blue:'#4b5862',
+      black_blue : '	#25252d'
     }),
     columns: {
       auto: 'auto',
@@ -363,6 +370,8 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
+      overpass : ['Overpass','sans-serif'],
+      ubantu : [ 'Ubuntu'],
       serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'ui-monospace',

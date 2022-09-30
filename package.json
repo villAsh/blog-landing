@@ -66,7 +66,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-tailwind":"build tailwindcss npx tailwindcss -i ./src/style.css -o ./style.css --watch"
+    "build:tailwind":"tailwindcss build -i ./src/style.css -o style.css --watch"
   },
   "repository": {
     "type": "git",
