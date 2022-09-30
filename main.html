@@ -14,8 +14,8 @@
      bg-no-repeat bg-cover bg-center"
      style="background-image: url(./images/bg-pattern-intro-desktop.svg);">
             <div class="text-white text-2xl max-w-screen-xl h-auto px-20 py-5">
-                <h1 class="font-overpass font-semibold inline-block">Blogr</h1>
-                <nav class="inline-block text-sm">
+                <img src="./images/logo.svg" alt="" class="inline">
+                <nav class="inline-block text-lg">
                     <div class="mx-auto max-w-screen md:px-6">
                         <div class="flex items-center">
                             <ul class="flex flex-col sm:flex-row sm:space-x-5 ">
@@ -53,27 +53,30 @@
         <div class="text-center">
             <h1 class="text-very_dark_blue text-3xl font-overpass font-semibold md:relative">Designed for the future</h1>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2  place-content-center mt-10">
-            <div class="order-2 pl-8 md:order-1 sm:pl-14 text-very_dark_blue font-normal font-overpass md:z-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2  place-content-center mt-10">
+            <div class="order-2 pl-8 sm:order-1 sm:pl-14 text-very_dark_blue font-normal font-overpass sm:z-10">
                 <div class="mt-14">
-                    <h1 class="text-2xl">Introducing an extensible editor</h1>
-                <p class="text-greyish_blue font-overpass text-base mt-4 text-justify mr-8 md:mr-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, recusandae natus? Quasi veniam ullam explicabo esse, vel fugit voluptatibus cumque quibusdam necessitatibus non illo rem praesentium sapiente maiores impedit incidunt magni. Nisi cum quis doloribus, molestias atque, quas repudiandae harum nobis, itaque molestiae iure tempore modi esse voluptatum dignissimos illo.</p>
+                    <h1 class="text-2xl font-semibold">Introducing an extensible editor</h1>
+                <p class="text-greyish_blue font-overpass text-base mt-4 text-justify mr-8 sm:mr-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, recusandae natus? Quasi veniam ullam explicabo esse, vel fugit voluptatibus cumque quibusdam necessitatibus non illo rem praesentium sapiente maiores impedit incidunt magni. Nisi cum quis doloribus, molestias atque, quas repudiandae harum nobis, itaque molestiae iure tempore modi esse voluptatum dignissimos illo.</p>
                 </div>
                 <div class=" mt-14">
-                    <h1 class="text-2xl">Robost content management</h1>
-                    <p class="text-greyish_blue font-overpass text-base mt-4 text-justify mr-16">
+                    <h1 class="text-2xl font-semibold">Robost content management</h1>
+                    <p class="text-greyish_blue font-overpass text-base mt-4 text-justify md:mr-16">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error accusantium recusandae consectetur ipsam hic dicta laborum aliquam ratione, nostrum ipsum dolor temporibus sunt! A facilis doloremque libero eligendi magni, impedit aperiam sequi ab recusandae consequatur doloribus officiis maiores aspernatur, debitis, ut officia fuga praesentium consectetur voluptates odio repudiandae. Enim, quas.
                     </p>
                 </div>
             </div>
-            <div class="order-1 md:order-2  md:overflow-hidden md:z-40">
+            <div class="order-1 sm:order-2  overflow-hidden z-40">
                 <img src="./images/illustration-editor-desktop.svg" alt=""class="max-w-full sm:max-w-[55vw] sm:relative sm:-right-12 sm:-top-24">
             </div>
         </div>
     </section>
-    <section class="z-0 mt-20 h-[25vh] sm:h-[50vh] bg-gradient-to-r from-very_dark_blue to-black_blue rounded-tr-[120px] rounded-bl-[120px]">
+    <section class=" 
+        z-0 mt-20 h-[25vh] sm:h-[50vh] bg-gradient-to-r from-very_dark_blue to-black_blue 
+        rounded-tr-[120px] rounded-bl-[120px] md:mt-36">
         <div class="grid grid-cols-1 sm:grid-cols-2">
-            <div>   
+         <!--
+                     <div>   
                 <picture class="sm:overflow-hidden sm:z-10">
                     <img src="./images/bg-pattern-circles.svg" alt="phones background pattern" class="w-28 sm:w-screen sm:relative sm:-top-36 ">
                 </picture>
@@ -81,13 +84,67 @@
                     <img src="./images/illustration-phones.svg" alt="phones" class="sm:w-full relative sm:-top-[55%] sm:left-10">
                 </picture>
             </div>
-            <div class="text-left p-28">
-                <h1 class="text-white font-overpass text-3xl">State of the Art Infrasturcture</h1>
+         -->
+            <div class="relative">
+                <img src="./images/bg-pattern-circles.svg" alt="circle pattern " class="hidden sm:block absolute sm:-top-36">
+                <img src="./images/illustration-phones.svg" alt="phones" class="absolute h-[40vh] sm:-top-20 sm:-right-11 sm:h-auto">
+            </div>
+            <div class="text-left flex flex-col flex-wrap p-7 justify-center md:mt-36">
+                <h1 class="text-white font-overpass text-3xl font-semibold">State of the Art Infrasturcture</h1>
                 <p class="text-justify text-greyish_blue pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis explicabo numquam pariatur dicta, delectus voluptates! Voluptatem dolorem mollitia nostrum corporis.</p>
             </div>
         </div>
-      
-        
     </section>
+    <section class="mt-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 place-items-start">
+            <div class="mt-16 sm:mt-52 xl:mt-10">
+                    <img src="./images/illustration-laptop-desktop.svg" alt="laptop img" class="sm:w-[100vw] m-0 p-0">
+            </div>
+            <div class="sm:mt-36 flex flex-col">
+                <div class="text-center sm:text-left p-5">
+                    <h1 class="text-4xl text-very_dark_blue font-overpass font-semibold">Free,Open,Simple</h1>
+                    <p class="text-justify mt-3 font-overpass text-greyish_blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum eveniet nihil id mollitia sunt aperiam similique nostrum incidunt assumenda debitis suscipit nulla, eligendi atque perspiciatis distinctio quas nam. Recusandae aperiam vel a quia eaque fuga deserunt optio cumque corporis?</p>
+                </div>
+                <div class="text-center sm:text-left p-5">
+                    <h1 class="text-4xl text-very_dark_blue font-overpass font-semibold">Powerfull Tooling</h1>
+                    <p class="text-justify mt-3 font-overpass text-greyish_blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum eveniet nihil id mollitia sunt aperiam similique nostrum incidunt assumenda debitis suscipit nulla, eligendi atque perspiciatis distinctio quas nam. Recusandae aperiam vel a quia eaque fuga deserunt optio cumque corporis?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-28 rounded-tr-4xl bg-black_blue font-overpass">
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-x-5 place-content-center text-center">
+            <div class="p-10 mx-auto">
+                <img src="./images/logo.svg" alt="footer logo " class="">
+            </div>
+            <div class="p-10">
+                <h1 class="text-white text-2xl">Product</h1>
+                <ul class="text-greyish_blue mt-5 space-y-2">
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>Markteplace</li>
+                    <li>Features</li>
+                    <li>Integrations</li>
+                </ul>
+            </div>
+            <div class="p-10">
+                <h1 class="text-white text-2xl">Company</h1>
+                <ul class="text-greyish_blue mt-5 space-y-2">
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                    <li>Career</li>
+                </ul>
+            </div>
+            <div class="p-10">
+                <h1 class="text-white text-2xl">Product</h1>
+                <ul class="text-greyish_blue mt-5 space-y-2">
+                    <li>Contact</li>
+                    <li>Newsletter</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
