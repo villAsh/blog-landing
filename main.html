@@ -10,32 +10,25 @@
 </head>
 <body>
     <!--   Hero section                     -->
-    <section class="bg-light_red h-[68vh] sm:h-[60vh] w-full rounded-bl-[60px]
+    <section class="bg-light_red h-[50vh] sm:h-[60vh] w-full rounded-bl-[60px]
      bg-no-repeat bg-cover bg-center"
      style="background-image: url(./images/bg-pattern-intro-desktop.svg);">
-            <div class="text-white text-2xl max-w-screen-xl h-auto px-20 py-5">
-                <img src="./images/logo.svg" alt="" class="inline">
-                <nav class="inline-block text-lg">
+            <div class="text-white text-2xl max-w-screen-xl px-20 py-5">
+                <img src="./images/logo.svg" alt="logo" class="inline">
+                <nav class="inline-block text-lg h-auto">
                     <div class="mx-auto max-w-screen md:px-6">
                         <div class="flex items-center">
-                            <ul class="flex flex-col sm:flex-row sm:space-x-5 ">
-                                <li>
-                                    <a href="#" class="text-white">Product <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block" id="dropbtn">    
-                                        <ul class="p-4 rounded-lg bg-white text-greyish_blue space-y-2 hidden" id="dropdown">
-                                            <li>Overview</li>
-                                            <li>Pricing</li>
-                                            <li>Marketplace</li>
-                                            <li>Features</li>
-                                            <li>Integration</li>
-                                        </ul>
+                            <ul class="flex flex-col sm:flex-row sm:space-x-5">
+                                <li class=" hover:underline hover:decoration-white">
+                                    <a href="#" class="text-white dropbtn">Product <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline">      
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="text-white">Company  <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block">    
-
+                                <li class=" hover:underline hover:decoration-white">
+                                    <a href="#" class="text-white dropbtn">Company  <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block">    
+                                     
                                     </a>
                                 </li>
-                                <li>
+                                <li class=" hover:underline hover:decoration-white">
                                     <a href="#" class="text-white">Connect  <img src="./images/icon-arrow-light.svg" alt="" class="w-5 text-black inline-block">    
 
                                     </a>
@@ -49,8 +42,8 @@
                     <span class="sm:ml-3 sm:px-5 py-2 -mt-2 bg-white rounded-2xl text-light_red hover:text-white hover:bg-light_red">Sign up</span>
                 </div>
             </div>
-            <div class="flex sm:flex-col justify-center items-center text-center h-[50vh]">
-                <div class="text-white font-overpass ">
+            <div class="text-center mt-[10%]">
+                <div class="text-white font-overpass">
                     <h1 class="text-5xl">A modern publishing platform</h1>
                     <h5 class="text-center pt-5 font-thin">Grow your audience and build your online board</h5>
                     <div class="text-center mt-5">
@@ -78,7 +71,7 @@
                 </div>
             </div>
             <div class="order-1 sm:order-2  overflow-hidden z-40">
-                <img src="./images/illustration-editor-desktop.svg" alt=""class="max-w-full sm:max-w-[55vw] sm:relative sm:-right-12 sm:-top-24">
+                <img src="./images/illustration-editor-desktop.svg" alt=""class="max-w-full md:max-w-[55vw] md:relative md:-right-12 md:-top-24">
             </div>
         </div>
     </section>
@@ -157,11 +150,5 @@
             </div>
         </div>
     </footer>
-    <script>
-        dropd = document.querySelector('#dropdown')
-        btn = document.querySelector('#dropbtn').addEventListener('click', () => {
-            dropd.classList.toggle();
-        });
-    </script>
 </body>
 </html>
